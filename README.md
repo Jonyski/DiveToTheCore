@@ -16,4 +16,4 @@ deno task dev --open
 - To run on preview mode:
 ~~~bash
 deno task preview --open
-~~
+~~~
