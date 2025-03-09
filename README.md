@@ -10,10 +10,10 @@ Let's dive into the core of computers with this interactive website.
 
 - Make sure you have deno installed.
 - To open the project:
-´´´bash
+```bash
 deno task dev --open
-´´´
+```
 - To run on preview mode:
-´´´bash
+~~~bash
 deno task preview --open
-´´´
+~~~
