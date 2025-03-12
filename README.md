@@ -8,12 +8,16 @@ Let's dive into the core of computers with this interactive website.
 
 ## How to run the project
 
-- Make sure you have deno installed.
-- To open the project:
+1. Make sure you have deno installed.
+
+2. Open the project:
+
 ´´´bash
 deno task dev --open
 ´´´
-- To run on preview mode:
+
+3. Run on preview mode:
+
 ´´´bash
 deno task preview --open
 ´´´
