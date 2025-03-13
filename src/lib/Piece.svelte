@@ -17,6 +17,12 @@
 		box-shadow: rgba(0, 0, 25, 0.75) 0px 20px 30px -10px;
 		font-size: 2vw;
 		text-decoration: none;
+		transition-duration: 0.5s;
+	}
+
+	a:hover {
+		transform: scale(1.08);
+		box-shadow: rgba(0, 0, 25, 0.6) 0px 25px 35px -15px;
 	}
 
 
