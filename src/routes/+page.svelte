@@ -1,14 +1,15 @@
 <script>
 	import Piece from '$lib/Piece.svelte'
+	import Title from '$lib/Title.svelte'
 
 	const components = [
-		{props: {text: "CPU", href: "/CPU", className: "CPU"}, color: "#F04040"},
-		{props: {text: "Memória", href: "/memoria", className: "mem"}, color: "#F0D030"},
-		{props: {text: "I/O", href: "/IO", className: "IO"}, color: "#4040C0"}];
+		{props: {text: "CPU", href: "/CPU", className: "CPU"}, color: "#DB425E"},
+		{props: {text: "Memória", href: "/memoria", className: "mem"}, color: "#EBD44D"},
+		{props: {text: "I/O", href: "/IO", className: "IO"}, color: "#5547CC"}];
 </script>
 
 <div id="header">
-	<h1>DIVE TO THE CORE</h1>
+	<Title text="DIVE TO THE CORE"/>
 
 	<div id="motherboard">
 		{#each components as comp}
@@ -29,14 +30,6 @@
 		flex-direction: column;
 		justify-content: flex-start;
 		align-content: center;
-	}
-
-	h1 {
-		height: 8vw;
-		font-size: 6vw;
-		color: white;
-		text-align: center;
-		margin: 3vh 0vh;
 	}
 
 	#motherboard {
