@@ -2,19 +2,20 @@
 	import Piece from '$lib/Piece.svelte'
 
 	const components = [
-		{props: {text: "CPU", href: "/CPU", className: "CPU"}, color: "#F04040"},
-		{props: {text: "Memória", href: "/memoria", className: "mem"}, color: "#F0D030"},
-		{props: {text: "I/O", href: "/IO", className: "IO"}, color: "#4040C0"}];
+		{props: {text: "RAM", href: "/memoria/RAM", className: "RAM"}, color: "#F0B030"},
+		{props: {text: "Memória Secundária", href: "/memoria/secundaria", className: "secundaria"}, color: "#F09030"},
+		{props: {text: "MMU", href: "/memoria/MMU", className: "MMU"}, color: "#F0F040"},
+		{props: {text: "Cache", href: "/memoria/cache", className: "memCache"}, color: "#FF8030"}];
 </script>
 
 <div id="header">
-	<h1>DIVE TO THE CORE</h1>
+	<h1>MEMÓRIA</h1>
 
-	<div id="motherboard">
+	<div id="memoria">
 		{#each components as comp}
 			<Piece {...comp.props} --color={comp.color}/>
 		{/each}
-	</div>
+	</div>	
 </div>
 
 
@@ -39,10 +40,10 @@
 		margin: 3vh 0vh;
 	}
 
-	#motherboard {
+	#memoria {
 		height: 40vw;
 		aspect-ratio: 2/1;
-		background-color: #202040;
+		background-color: #F0D030;
 		border-radius: 2vw;
 		box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 	}

@@ -15,7 +15,6 @@
 			<Piece {...comp.props} --color={comp.color}/>
 		{/each}
 	</div>
-	
 </div>
 
 
