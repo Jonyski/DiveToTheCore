@@ -1,14 +1,15 @@
 <script>
 	import Piece from '$lib/Piece.svelte'
+	import Title from '$lib/Title.svelte'
 
 	const components = [
-		{props: {text: "Periféricos", href: "/IO/perifericos", className: "perifericos"}, color: "#566BE3"},
-		{props: {text: "Controladores", href: "/IO/controladores", className: "controladores"}, color: "#4C3AB0"},
-		{props: {text: "Portas", href: "/IO/portas", className: "portas"}, color: "#672CC7"}];
+		{props: {text: "Periféricos", href: "/IO/perifericos", className: "perifericos"}, color: "#4405A3"},
+		{props: {text: "Controladores", href: "/IO/controladores", className: "controladores"}, color: "#477ED6"},
+		{props: {text: "Portas", href: "/IO/portas", className: "portas"}, color: "#5E30C2"}];
 </script>
 
 <div id="header">
-	<h1>I/O</h1>
+	<Title text="I/O"/>
 
 	<div id="IO">
 		{#each components as comp}
@@ -31,18 +32,10 @@
 		align-content: center;
 	}
 
-	h1 {
-		height: 8vw;
-		font-size: 6vw;
-		color: white;
-		text-align: center;
-		margin: 3vh 0vh;
-	}
-
 	#IO {
 		height: 40vw;
 		aspect-ratio: 2/1;
-		background-color: #4040C0;
+		background-color: #5547CC;
 		border-radius: 2vw;
 		box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
 	}
