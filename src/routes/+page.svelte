@@ -8,7 +8,7 @@
 		{props: {text: "I/O", href: "/IO", className: "IO"}, color: "#5547CC"}];
 </script>
 
-<div id="header">
+<header>
 	<Title text="DIVE TO THE CORE"/>
 
 	<div id="motherboard">
@@ -16,12 +16,12 @@
 			<Piece {...comp.props} --color={comp.color}/>
 		{/each}
 	</div>
-</div>
+</header>
 
 
 
 <style>
-	#header {
+	header {
 		top: 0px;
 		height: 60vw;
 		width: 100vw;
