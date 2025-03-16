@@ -17,16 +17,15 @@
 <style>
     nav {
         display: flex;
-        background-color: #202040;
+        background-color: var(--secondary-color-bg);
         justify-content: space-between;
         align-items: center;
         padding: 0.8rem;
 
         a {
-            font-family: Inconsolata, monospace;
             font-size: 2rem;
             text-decoration: underline;
-            color: white;
+            color: var(--primary-color-font);
         }
 
         ul[role="menu"] {

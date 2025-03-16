@@ -1,0 +1,15 @@
+:root {
+    font-size: 62.5%; /* 1rem == 10px*/
+
+    font-family: Inconsolata, monospace;
+
+    --primary-color-bg: #101020;
+    --secondary-color-bg: #202040;
+    --primary-color-font: white;
+}
+
+html,
+body {
+    margin: 0;
+    background-color: var(--primary-color-bg);
+}
