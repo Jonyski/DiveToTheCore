@@ -9,6 +9,7 @@
 		{props: {text: "Memória Secundária", href: "/memoria/secundaria", className: "secundaria"}, color: "#F09030"}];
 </script>
 
+
 <div id="header">
 	<Title text="MEMÓRIA"/>
 
@@ -18,7 +19,6 @@
 		{/each}
 	</div>	
 </div>
-
 
 
 <style>
