@@ -8,6 +8,7 @@
 		{props: {text: "I/O", href: "/IO", className: "IO"}, color: "#5547CC"}];
 </script>
 
+
 <header>
 	<Title text="DIVE TO THE CORE"/>
 
@@ -17,7 +18,6 @@
 		{/each}
 	</div>
 </header>
-
 
 
 <style>

@@ -11,6 +11,7 @@
 		{props: {text: "Cache", href: "/CPU/cache", className: "cpuCache"}, color: "#ed4126"}];
 </script>
 
+
 <div id="header">
 	<Title text="CPU"/>
 
@@ -20,7 +21,6 @@
 		{/each}
 	</div>
 </div>
-
 
 
 <style>
