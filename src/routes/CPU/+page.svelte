@@ -12,7 +12,7 @@
 </script>
 
 
-<div id="header">
+<header>
 	<Title text="CPU"/>
 
 	<div id="CPU">
@@ -20,11 +20,11 @@
 			<Piece {...comp.props} --color={comp.color}/>
 		{/each}
 	</div>
-</div>
+</header>
 
 
 <style>
-	#header {
+	header {
 		top: 0px;
 		height: 60vw;
 		width: 100vw;
