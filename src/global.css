@@ -13,3 +13,14 @@ body {
     margin: 0;
     background-color: var(--primary-color-bg);
 }
+
+header {
+        top: 0px;
+        height: 60vw;
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-content: center;
+}

@@ -21,17 +21,6 @@
 
 
 <style>
-	header {
-		top: 0px;
-		height: 60vw;
-		width: 100vw;
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-content: center;
-	}
-
 	#motherboard {
 		height: 40vw;
 		aspect-ratio: 2/1;
