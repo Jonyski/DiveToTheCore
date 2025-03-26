@@ -6,6 +6,8 @@
     --primary-color-bg: #101020;
     --secondary-color-bg: #202040;
     --primary-color-font: white;
+
+    color: var(--primary-color-font);
 }
 
 html,
@@ -15,12 +17,67 @@ body {
 }
 
 header {
-        top: 0px;
-        height: 60vw;
-        width: 100vw;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-content: center;
+    top: 0px;
+    height: 60vw;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    text-align: center;
+}
+
+section {
+    width: 80%;
+    margin: 4vw 10vw 10vw 10vw;
+}
+
+h1, h2, h3, h4, h5, h6, p, strong, i, a, li{
+    text-wrap: wrap;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+    font-size: 7rem;
+    margin: 2rem 0rem;
+}
+
+h2 {
+    font-size: 5rem;
+    margin: 1.5rem 0rem;
+}
+
+h3 {
+    font-size: 4rem;
+    margin: 1rem 0rem;
+}
+
+h4, h5, h6 {
+    font-size: 3rem;
+    margin: 0.75rem 0rem    ;
+}
+
+p, li {
+    font-weight: 250;
+    font-size: 3rem;
+}
+
+img.full{
+    width: 100%;
+    border-radius: 3rem;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid white;
+  color: #333;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
 }
