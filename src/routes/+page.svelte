@@ -33,7 +33,7 @@
 </section>
 
 <section>
-	<h2>UMA BREVE HISTÓRIA</h2>
+	<h2>Uma Breve História</h2>
 	<hr/>
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -79,6 +79,8 @@
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 	consequat. Duis aute irure dolor in reprehenderit in.</p>
+
+	<blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</blockquote>
 </section>
 
 <style>
