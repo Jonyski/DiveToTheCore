@@ -42,7 +42,7 @@
 	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 	cillum dolore eu fugiat nulla pariatur.</p>
 
-	<img class="full" src="https://ambrosia.com.br/wp-content/uploads/2023/12/totoro.webp">
+	<img class="big" src="https://ambrosia.com.br/wp-content/uploads/2023/12/totoro.webp">
 
 	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,

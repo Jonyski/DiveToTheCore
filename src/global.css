@@ -73,6 +73,29 @@ img.full{
     border-radius: 3rem;
 }
 
+img.big {
+    width: 75%;
+    margin: 0px 12.5%;
+    border-radius: 2.5rem;
+}
+
+img.median {
+    width: 50%;
+    margin: 0px 25%;
+    border-radius: 2rem;
+}
+
+img.small {
+    width: 25%;
+    margin: 0px 37.5%;
+    border-radius: 1.5rem;
+}
+
+img.left {
+    margin: 0px;
+    left: 0px;
+}
+
 hr {
   border: none;
   border-top: 2px solid white;
