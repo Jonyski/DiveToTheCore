@@ -9,7 +9,7 @@
 </script>
 
 
-<div id="header">
+<header>
 	<Title text="I/O"/>
 
 	<div id="IO">
@@ -17,21 +17,10 @@
 			<Piece {...comp.props} --color={comp.color}/>
 		{/each}
 	</div>
-</div>
+</header>
 
 
 <style>
-	#header {
-		top: 0px;
-		height: 60vw;
-		width: 100vw;
-		display: flex;
-		flex-wrap: wrap;
-		flex-direction: column;
-		justify-content: flex-start;
-		align-content: center;
-	}
-
 	#IO {
 		height: 40vw;
 		aspect-ratio: 2/1;

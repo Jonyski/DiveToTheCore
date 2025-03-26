@@ -20,18 +20,18 @@
         background-color: var(--secondary-color-bg);
         justify-content: space-between;
         align-items: center;
-        padding: 0.8rem;
+        padding: 0.5rem 3rem;
 
         a {
             font-size: 2rem;
-            text-decoration: underline;
+            text-decoration: none;
             color: var(--primary-color-font);
         }
 
         ul[role="menu"] {
             list-style: none;
             display: flex;
-            gap: 2rem;
+            gap: 4rem;
         }
     }
 </style>
