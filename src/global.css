@@ -33,7 +33,7 @@ section {
     margin: 4vw 10vw 10vw 10vw;
 }
 
-h1, h2, h3, h4, h5, h6, p, strong, i, a, li{
+h1, h2, h3, h4, h5, h6, p, strong, i, a, li, blockquote{
     text-wrap: wrap;
 }
 
@@ -60,10 +60,10 @@ h3 {
 
 h4, h5, h6 {
     font-size: 3rem;
-    margin: 0.75rem 0rem    ;
+    margin: 0.75rem 0rem;
 }
 
-p, li {
+p, li, a, caption, th, td {
     font-weight: 250;
     font-size: 3rem;
 }
@@ -79,7 +79,7 @@ img.big {
     border-radius: 2.5rem;
 }
 
-img.median {
+img.medium {
     width: 50%;
     margin: 0px 25%;
     border-radius: 2rem;
@@ -96,6 +96,24 @@ img.left {
     left: 0px;
 }
 
+blockquote {
+    color: #BBD;
+    font-weight: 300;
+    font-size: 3em;
+    margin-left: 0rem;
+    padding-left: 1.5rem;
+    border-left: 0.4rem solid #BBD;
+}
+
+a {
+    text-decoration: underline 1px;
+    color: #DB425E;
+}
+
+strong {
+    font-weight: 500;
+}
+
 hr {
   border: none;
   border-top: 2px solid white;
@@ -103,4 +121,45 @@ hr {
   overflow: visible;
   text-align: center;
   height: 5px;
+}
+
+caption {
+  text-align: center;
+  padding: 1rem;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+table {
+    margin-left: 10%;
+    width: 80%;
+    border-radius: 2rem;
+    cellpadding: 0px;
+    cellspacing: 0px;
+}
+
+thead {
+  background: #202040;
+  border-radius: 2rem 2rem 0px 0px;
+}
+
+th {
+  padding: 1rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+td {
+  padding: 1rem 0rem;
+  margin: 0px;
+  text-align: center;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #151530;
+}
+
+tbody tr:hover {
+  background-color: #202040;
+  transition: background-color 0.3s ease;
 }
